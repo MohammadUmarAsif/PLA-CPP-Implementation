@@ -1,13 +1,4 @@
-/* Assignment
- * COC2070 - Digital Logic and System Design
- * Mohammad Umar Asif
- * A2CO - 43
- * 18COB176 
- * GK-7690
-*/
- 
-/*
- * This is a C++ program to print a Programmable Logic Array or PLA Table.
+/* This is a C++ program to print a Programmable Logic Array or PLA Table.
  * The functions are minimized through the Quine-McCluskey Algorithm in SOP or Sum Of Products form.
  * The program does not account for 'don't care' conditions.
 */
@@ -47,12 +38,10 @@ int main()
         cout<<"Do you want to quit(Q/q) or print another PLA(P/p)? ";
         cin>>option;
         
-    }while(option == 'P' || option == 'p');
+    } while(option == 'P' || option == 'p');
     
     cout<<"Thank you."<<endl;
-    cout<<"Created by Mohammad Umar Asif (A2CO-43)";
     cout<<endl;
-    
     return 0;
     
 }
